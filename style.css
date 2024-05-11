@@ -1,0 +1,876 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color:#000;
+}
+body{
+    background: url(images/nightskybg2.jpg);
+    position: relative;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    color: #fff;
+    letter-spacing: 1px; 
+    cursor:url(), auto;
+}
+#homepage{
+    background: url(images/nightskybg2.jpg);
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+#cartpage{
+    background: url(images/nightskybg1.jpg);
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+#storepage{
+    background: url(images/nightskybg2.jpg);
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+#contactpage{
+    background: url(images/nightskybg1.jpg);
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+.categories{
+    background: url(images/nightskybg2.jpg);
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left:25px;
+    padding-right: 25px;
+}
+h2 {
+    color: #004481;
+}
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+    text-align: center;
+    background:none;
+    letter-spacing: 17.5px;
+    word-spacing: 7.5px;  
+    position: absolute;
+}
+h1 img{
+    position: relative;  
+    top:300;
+    width: 700px;
+    opacity: 99%;
+}
+h3 img{
+    position: relative;  
+    top:0;
+    left: 0;
+    position: fixed;
+    opacity: 100%;
+    
+}
+p11{
+   font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 20px;
+}
+p14{
+   font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+h3{
+width:110%;
+text-align:center;
+    
+}
+h5 img{
+    position: relative;  
+    top:0;
+    left: 0;
+    position: fixed;
+    opacity: 100%;
+}
+h5{
+width:110%;
+text-align:center;
+    position: fixed;
+    
+}
+nav{
+    width: 100%;
+    position:absolute;
+    left: 0;
+    text-align: left;
+    top:10;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+    margin-left: 0;
+    width: 100vh;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 35px;
+    margin-left: -40;
+}
+nav ul li a{
+    color: #004481;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.0em;
+    padding: 5px 1px;
+    padding-left: 15px;
+    transition: 0.5s; 
+    font-family: 'Cabin Sketch', cursive;
+    padding-left: 90px;
+}
+.navbar{
+    margin-left: -90;
+}
+.menu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 100px;
+}
+.menu li {
+  display: block;
+  height: 100%;
+  margin-right: 30px;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+nav ul li a:hover{
+    animation: anim2 500ms cubic-bezier(0.375, 0.885, 0.32, 0.275) infinite;
+     transform: scale(1.09);
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav3{
+    width: 100%;
+    position:fixed;
+    left: 0;
+    text-align: left;
+    top:10;
+}
+nav3 ul{
+    flex: 1;
+    text-align: center;
+    margin-left: 0;
+    width: 100vh;
+}
+nav3 ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 35px;
+    margin-left: -40;
+}
+nav3 ul li a{
+    color: #004481;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.0em;
+    padding: 5px 1px;
+    padding-left: 15px;
+    transition: 0.5s; 
+    font-family: 'Cabin Sketch', cursive;
+    padding-left: 90px;
+}
+.navbar{
+    margin-left: -90;
+}
+.menu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 100px;
+}
+.menu li {
+  display: block;
+  height: 100%;
+  margin-right: 30px;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+nav3 ul li a:hover{
+    animation: anim2 500ms cubic-bezier(0.375, 0.885, 0.32, 0.275) infinite;
+     transform: scale(1.09);
+    text-decoration: underline;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categories{
+    margin:70px 0;
+    background: url(images/nightskybg.jpg);
+    position: relative;
+    width: auto;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+.col-3 img{
+    width:100%;
+    border-radius: 10px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row2{
+    max-width: 1080px;
+    margin-top: 150;
+    background-color: aqua;
+}
+.col-4{
+    flex-basis: 15%;
+    min-width: 280px;
+    margin-bottom: 40px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30;
+}
+.title{
+    margin: 0 auto 50px;
+    position:inherit;
+    line-height: 60px;
+    color: #004481;
+    font-size:45px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+h4{
+    color: #000;
+    font-weight: normal;
+    font-family: 'Cabin Sketch', cursive;
+    text-align-last: center;
+    margin-top: -20;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+     transform: translateY(-5px);
+}
+.col-3:hover{
+    transform: scale(1.04);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+}
+p11 a{
+    text-decoration: none;
+}
+
+p14 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    margin-left: 350;
+}
+.col-5 img{
+    width: 300px;
+    filter: grayscale(10%);
+}
+.copyright{
+    width: 100%;
+    text-align:center;
+    padding: 10px 0;
+    background:none;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 800;
+    border-color: bisque;
+    border-radius: 10;
+    color: #000;  
+    margin-top: auto;    
+    
+}
+.logo {
+    width: 100px;
+    margin-top: -20px;
+    
+}
+.copyright i{
+    color: #fff;
+}
+.menu-icon{
+    display: none;   
+}
+nav2{
+display: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.page-btn span{
+    display: inline-block;
+    border:1px solid #000;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+.page-btn span:hover{
+    background: #004481;
+    color: #fff;
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    border:1px solid #fff;
+}
+.col-2{
+    float: left;
+    width: 50%;
+}
+.col-2 img{
+    max-width:100%;
+    padding: 10px;
+}
+h6{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    text-align: left;
+    background:none;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding:0px;
+    word-spacing: 2.5px;  
+    color:lightblue;
+} 
+
+h66{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    text-align: left;
+    background:none;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding:0px;
+    word-spacing: 2.5px; 
+    color: #004481;
+} 
+p{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
+    text-align: left;
+    background:none;
+    word-spacing: 2.5px;  
+    text-align-last: center;
+}
+p1{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 15px;
+    text-align: left;
+    background:none;
+    word-spacing: 2.5px; 
+}
+p2{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 15px;
+    text-align: left;
+    background:none;
+    word-spacing: 2.5px;  
+    text-decoration: underline;
+}
+span{
+    font-family: 'Cabin Sketch', cursive;
+}
+select{
+    width: 150px;
+    border:1px solid;
+    color: #000;
+    background-color:#fff;
+    font-family: 'Cabin Sketch', cursive;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+     border: 1px solid #000;
+}
+.btn1{
+    display: inline-block;
+    color: #000;
+    background-color:lightblue;
+    font-family: 'Cabin Sketch', cursive;
+    width: 180px;
+    text-decoration: none;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    font-size: 15px;
+    border: 1px solid #000;
+}
+.btn1:hover{
+    transform: scale(1.09);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    background-color:#004481;
+    color:#fff;
+    
+}
+.btn2{
+    display: inline-block;
+    color:#004481;
+    background-color:#fff;
+    font-family: 'Cabin Sketch', cursive;
+    width: 180px;
+    text-decoration: none;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s;
+      border: 1px solid #000;
+    font-size: 15px;
+}
+.btn2:hover{
+    transform: scale(1.09);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    background-color:#004481;
+    color:#fff;
+    
+}
+.btn3{
+    display: inline-block;
+    color:#000;
+    background-color:lightblue;
+    font-family: 'Cabin Sketch', cursive;
+    width: 70px;
+    text-decoration: none;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    border: 1px solid #000;
+    font-size: 10px;
+    margin-left: 1250;
+    margin-top: 70;
+}
+.btn3:hover{
+    transform: scale(1.09);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    background-color:#004481;
+    color:#fff;
+      border: 1px solid #000;
+    
+}
+.btn9{
+    display: inline-block;
+    color: #000;
+    background-color:lightblue;
+    font-family: 'Cabin Sketch', cursive;
+    text-decoration: none;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 18px;
+    width: 160px;
+    transition: transform 0.5s;
+    font-size: 15px;
+    margin-left: 650;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+.btn9:hover{
+    transform: scale(1.09);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    background-color:#004481;
+    color:#fff;
+    
+}
+.btn4{
+    display: inline-block;
+    color: #000;
+    background-color:lightblue;
+    font-family: 'Cabin Sketch', cursive;
+    text-decoration: none;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 18px;
+    width: 160px;
+    transition: transform 0.5s;
+    font-size: 15px;
+    margin-left: 650;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+.btn4:hover{
+    transform: scale(1.09);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    background-color:#004481;
+    color:#fff;
+    
+}
+.single-product{
+    margin-top:80px;
+}
+.single-product .col-2 img{
+    padding: 10px;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.small-img-row{
+    display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.small-img:hover{
+    transform: scale(1.09);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+}
+.small-img{
+     transition: transform 0.5s;
+}
+.web1{
+    width: 100vh;
+    height: 100vh;
+}
+h6{
+color: #004481;
+}
+
+.btn-block {
+      margin-top: 20px;
+      text-align: center;
+      font-family: 'Cabin Sketch', cursive;
+      margin-left: 0px;
+      }
+      button {
+      width: 90px;
+      padding: 10px;
+      border: none;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: lightblue;
+      font-family: 'Cabin Sketch', cursive;
+      font-size: 20px;
+      color: #000;
+      cursor: pointer;
+      border-radius: 10px;
+          border:1px solid #000;
+          font-weight: 400;
+      }
+      button:hover {
+      transform: scale(1.09);
+      transition: 1s;
+      box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+      color:  #000;
+          font-weight: 400;
+      background-color: #004481;
+     border:1px solid #000;
+      }
+h6{
+    text-align-last: center;
+    color: lightblue;
+}
+h666{
+    text-align-last: center;
+    color:#004481;
+     font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+}
+p45{
+     font-size:20px;
+     font-family: 'Cabin Sketch', cursive;
+}
+p69{
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer; 
+}
+
+.btn5{
+    display: inline-block;
+    color: #000;
+    background-color:lightblue;
+    font-family: 'Cabin Sketch', cursive;
+    text-decoration: none;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 18px;
+    width: 160px;
+    transition: transform 0.5s;
+    font-size: 15px;
+    margin-left: 635;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+.btn5:hover{
+    transform: scale(1.09);
+    transition: 1s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    background-color:#004481;
+    color:#fff;
+    
+}
+.optionsdrop{
+    position: fixed;
+    margin-left: 1080;
+    margin-top: -80;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    
+
+.menu{
+        display: none;
+}
+h1 img{
+    position: relative;  
+    top:100;
+    width: 200px;
+    align-items: center;
+}  
+ h3 img{ 
+    top:0;
+    left: 0;
+    position:absolute;
+}
+h3{
+    width:500px;
+}  
+    
+nav2{
+display: block;
+}
+.navcont{
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ nav2 ul{
+    position: absolute;
+    top:70px;
+    left:0;
+    background: #333;
+    width: 100%;
+}
+nav2 ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+nav2 ul li a{
+    color: #000;
+   font-family: 'Barrio', cursive;
+    font-size:12px;
+    text-decoration: none;
+    
+}
+}
+
+
+
+
+
+
+
+
